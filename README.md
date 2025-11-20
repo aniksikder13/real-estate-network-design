@@ -17,10 +17,10 @@
 
 ### summary 
 
-**project details** 
+**project details** <br>
 This project is design for a real estate company. It is design like it can take data/inputs from 3rd party in a secure way. Depelopers can work smothly via SSH and users can access from the interenet. This application deploy in 2 different regions and each regions have 2 diffent available zones. So the application serve their service smothly even in any disester.
 
-**architecture decisions**
+**architecture decisions** <br>
 In this project I use route 53 for control the trafics from internet and send them to the closer region. and I kept frontend in s3/CDN for better serve although it is a public app and security here is 0. I create a VPC and 2 subnets for separate backend and Database/caches from internet and keep them  isolated from each other. then set security rules to prevent unwanted access and keep them in control communications. I use Nat and IG for access the internets safely.
 
 **reasoning and networking components used and their use case**
