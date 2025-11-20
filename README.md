@@ -2,4 +2,4 @@
 
 Here is the network design:
 
-![Network design](image/Diagram.jpg)
+![Network design](image/Diagram.png)
